@@ -1,8 +1,9 @@
 {
   "name": "make-react-app",
-  "version": "0.1.1",
-  "description": "Create React App with basic build configurations of Webpack, Babel, ESLint, Jest",
+  "version": "0.1.2",
+  "description": "Create React Apps with basic build configurations of Webpack, Babel, ESLint, Jest",
   "main": "index.js",
+  "keywords": "react, webpack, babel, eslint, jest, setup, boilerplate, basic",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
