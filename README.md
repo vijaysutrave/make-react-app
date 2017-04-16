@@ -1,9 +1,3 @@
-<p align="center">
-  <h3 align="center"><a style="font-size: 2em" href="https://www.npmjs.com/package/make-react-app" target="_blank">
-  :rocket:
-  </a></h3>
-  <p align="center">Make-React-App</p>
-</p>
 
 ### make-react-app
 Quickly start developing React Apps with basic tooling support Webpack, Babel, ESLint and Jest. 
@@ -25,5 +19,9 @@ In Modern Web Apps with React, getting started with the basic tool can be a pain
 ### Issues
 Report all Issues [here](https://github.com/vijaysutrave/make-react-app/issues)
 
+### Todo
+- HMR
+- Yarn
+
 ### License 
-MIT
+MIT © [vijaysutrave](https://github.com/vijaysutrave)
