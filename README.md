@@ -1,6 +1,6 @@
 
 ### make-react-app
-Quickly start developing React Apps with basic tooling support Webpack, Babel, ESLint and Jest. 
+Quickly start developing React Apps with basic tooling support by Webpack, Babel, ESLint and Jest. 
 
 ### Why do I need this?
 
@@ -10,7 +10,9 @@ In Modern Web Apps with React, getting started with the basic tool can be a pain
 `npm install -g make-react-app`
 
 ### Usage
-`make-react-app <project-name>`
+`make-react-app <project-name> [options]`
+
+Creates the project in the current directory
 
 ### Options
 `--packageVersion` : Creates the project with the specified version <br />
