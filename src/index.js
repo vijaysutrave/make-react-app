@@ -8,7 +8,7 @@ const Spinner = require('cli-spinner').Spinner;
 const colors = require('colors');
 const packageJson = require('../package.json');
 const newPackageJson = require('../template/package.json');
-const validateName = require("validate-npm-package-name")
+const validateName = require('validate-npm-package-name')
 
 let projectName;
 
@@ -69,16 +69,16 @@ const program = new commander.Command(packageJson.name)
       console.log('You can run the following commands from your project directory:');
       console.log();
 
+      console.log(colors.yellow('npm run dev'));
+      console.log('Run this to get started, go to localhost:8001 in your browser after running to see your project live!');
+      console.log();
+
       console.log(colors.yellow('npm run build'));
       console.log('Build and bundles the project up for you using Webpack');
       console.log();
 
       console.log(colors.yellow('npm run build:prod'));
       console.log('Runs the build in production mode for minified assets and optimizations');
-      console.log();
-
-      console.log(colors.yellow('npm run dev'));
-      console.log('Starts the Webpack development server');
       console.log();
 
       console.log(colors.yellow('npm run lint'));
