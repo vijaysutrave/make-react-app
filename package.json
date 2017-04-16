@@ -1,6 +1,6 @@
 {
   "name": "make-react-app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Create React App with basic build configurations of Webpack, Babel, ESLint, Jest",
   "main": "index.js",
   "scripts": {
